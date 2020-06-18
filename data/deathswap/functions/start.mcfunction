@@ -1,0 +1,1 @@
+tellraw @a {"text":"Click here to play DeathSwap!","color":"gold","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":"Once two players have clicked, the game will start.\nAll other players will become spectators.","italic":true}]},"clickEvent":{"action":"run_command","value":"/trigger trigger set 1"}}
